@@ -1,15 +1,24 @@
-1-
+ 
 <img width="349" height="130" alt="image" src="https://github.com/user-attachments/assets/4f58098f-de81-4f4d-bf06-6990225602b0" />
-### Fui até a área de trabalho e criei uma pasta chamada repositório para organizar meus projetos.
-### Entrei nessa pasta para começar o projeto.
+ 
+ 1 - No terminal Git Bash, primeiro entrei na pasta Desktop (Área de Trabalho) usando o comando cd desktop. Em seguida, criei uma nova pasta chamada repositório dentro da Área de Trabalho com o comando mkdir repositório. Depois disso, entrei nessa pasta recém-criada usando o comando cd repositório. Esses comandos serviram para preparar o ambiente onde vou trabalhar com o Git — ou seja, dentro da pasta “repositório”, poderei iniciar um repositório local, clonar um repositório do GitHub ou começar a salvar meus arquivos de projeto.
 
-2- 
-<img width="619" height="209" alt="image" src="https://github.com/user-attachments/assets/dca2c241-3042-44ea-bfe1-badd960b23d8" />
-### Dentro da pasta, cloneniei o repositório git-commands do GitHub para o meu computador e entrei na pasta clonada.
-### Assim, agora eu tinha todos os arquivos e o histórico do projeto localmente.
+<img width="509" height="166" alt="image" src="https://github.com/user-attachments/assets/cb4ee37e-4ab2-4dc1-917c-c0fa8acedae2" />
 
-3- 
+2 - No terminal Git Bash, dentro da pasta repositório, usei o comando
+git clone https://github.com/lara20andrade/git-commands.git.
+
+Esse comando serve para clonar (baixar uma cópia completa) de um repositório que está no GitHub para o meu computador. Assim, todos os arquivos, pastas e histórico de commits do repositório git-commands foram copiados para dentro da minha pasta local.
+
+Durante o processo, o terminal mostrou mensagens de progresso, como “Enumerating objects”, “Counting objects” e “Receiving objects”, indicando que os arquivos estavam sendo baixados e organizados.
+
+Ao final, apareceu a mensagem “Resolving deltas: 100%, done”, confirmando que a clonagem foi concluída com sucesso.
+Isso significa que agora eu tenho uma cópia completa do repositório git-commands no meu computador, pronta para ser acessada e modificada localmente.
+
+
 <img width="557" height="175" alt="image" src="https://github.com/user-attachments/assets/1d98ae05-cd86-4d04-9685-5142a044a06a" />
+
+3 - 
 ### Criei uma nova branch chamada documentacao-colaboracao e já mudei para ela:
 
 <img width="705" height="169" alt="image" src="https://github.com/user-attachments/assets/0405c562-2bd8-43b5-8239-0fd378e45ada" />
